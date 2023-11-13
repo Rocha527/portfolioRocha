@@ -14,7 +14,7 @@ main .main-content {
 
 main .main-content h2 {
     margin-bottom: 2%;
-    font-size: 2.2em;
+    font-size: 2.0em;
 }
 
 main .main-content .text {
@@ -42,7 +42,6 @@ main .techs .cards-container .card { /* AQUI É A ESTILIZAÇÃO DAS TECNOLOGIAS 
     border-radius: 8px;
     margin-right: 10em;
     margin-bottom: 1.8em;
-    cursor: pointer;
 
     display: flex;
     align-items: center;
@@ -57,8 +56,8 @@ main .techs .cards-container .card img {
 }
 
 
-main .techs .cards-container .card hover {
-    box-shadow: 0px 0px 8px red;
+main .techs .cards-container .card:hover {
+    box-shadow: 0px 0px 5px red;
 }
 
 /* FIGURE */
@@ -75,7 +74,6 @@ main figure img {
     border-radius: 200px;
 
     margin-bottom: 6%;
-    cursor: pointer;
     border: 1px red solid;
     transition: 0.2s ease-in-out;
 }
@@ -88,6 +86,5 @@ main figure figcaption {
     font-size: 50px;
     color: red;
     margin-bottom: 6%;
-    cursor: pointer;
     transition: 0.2s ease-in-out;
 }
